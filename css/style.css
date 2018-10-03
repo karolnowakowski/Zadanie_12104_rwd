@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+
+span {
+    font-size: 1.6em;
+}
+
+
+
+@media (min-width: 1171px) {
+
+    .image {
+        background-image: url(../obrazy/man-1.jpg);
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .text {
+        font-family: verdana;
+        text-align: left;
+        position: fixed;
+        top: 50%;
+        left: 3%;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1170px) {
+
+    .image {
+        background-image: url(../obrazy/man-2.jpg);
+        height: 70%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .text {
+        font-family: verdana;
+        text-align: left;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+    
+
+}
+
+
+@media (max-width: 992px) {
+
+    .image {
+        background-image: url(../obrazy/man-1.jpg);
+        height: 50%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    .text {
+        font-family: verdana;
+        text-align: center;
+        position: absolute;
+        top: 99%;
+        left: 20%;
+        text-transform: uppercase;
+        font-weight: bold;
+
+
+    }
+    
+    header {
+    padding-bottom: 100px;
+}
+
+}
